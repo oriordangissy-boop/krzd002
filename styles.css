@@ -76,8 +76,8 @@ img { display: block; max-width: 100%; }
 .hero > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0,0,0,.68) 0%, rgba(0,0,0,.28) 48%, rgba(0,0,0,.05) 75%); }
 .hero-inner { position: relative; height: 100%; display: flex; align-items: center; }
-.hero-card { width: min(670px, 62%); color: #fff; }
-.hero-card h1 { margin: 10px 0 20px; font-size: clamp(48px, 4.8vw, 68px); line-height: 1.02; letter-spacing: -3px; }
+.hero-card { width: min(810px, 70%); color: #fff; }
+.hero-card h1 { margin: 10px 0 20px; font-size: clamp(46px, 4vw, 60px); line-height: 1.04; letter-spacing: -2.5px; }
 .hero-card > p:not(.eyebrow) { max-width: 560px; margin-bottom: 32px; font-size: 18px; }
 .hero-dots { position: absolute; right: 30px; bottom: 25px; display: flex; gap: 10px; }
 .hero-dots button { width: 10px; height: 10px; padding: 0; border: 1px solid #fff; border-radius: 50%; background: transparent; }
@@ -235,7 +235,7 @@ img { display: block; max-width: 100%; }
   .hero { min-height: 570px; height: calc(100vh - 74px); }
   .hero-shade { background: rgba(0,0,0,.58); }
   .hero-card { width: 100%; }
-  .hero-card h1 { font-size: 43px; letter-spacing: -2px; }
+  .hero-card h1 { font-size: 39px; letter-spacing: -1.5px; }
   .button-row { align-items: flex-start; flex-direction: column; gap: 17px; }
   .split-heading { grid-template-columns: 1fr; gap: 10px; }
   .finder-tabs button { font-size: 14px; }
